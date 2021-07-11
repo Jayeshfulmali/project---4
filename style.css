@@ -393,22 +393,22 @@ transition: transform 0.2s ease-in;
     /* body{
         display: none;
     } */
-    .grid,.showcase .grid,.showcase1 .grid,.stats .grid, .cli .grid, .cloud .grid,.featured-head .grid,.featured-sub-head .grid, .featured-main .grid,.docs-main .grid{
+    .grid,.showcase .grid,.showcase1 .grid,,.showcase2 .grid,.stats .grid, .cli .grid, .cloud .grid,.featured-head .grid,.featured-sub-head .grid, .featured-main .grid,.docs-main .grid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
 
     }
     
 
-    .showcase,.showcase1{
+    .showcase,.showcase1,showcase2{
         height: auto;
     }
-    .showcase-text,.showcase1-text{
+    .showcase-text,.showcase1-text,.showcase2-text{
         text-align: center;
         margin-top: 40px;
         animation:slidINFormTop 1s ease-in ;
     }
-    .showcase-form,.showcase1-form{
+    .showcase-form,.showcase1-form,.showcase2-form{
         justify-self: center;
         margin: auto;
         animation:slidINFormBottom 1s ease-in ;
