@@ -148,7 +148,7 @@ font-size: 40px;
 
 
 .showcase2{
-    height: 70vh;
+    height: 80vh;
     background: rgba(160, 127, 127, 0.06);
     
     color: black;
@@ -393,21 +393,26 @@ transition: transform 0.2s ease-in;
     /* body{
         display: none;
     } */
-    .grid,.showcase .grid,.showcase1 .grid,,.showcase2 .grid,.stats .grid, .cli .grid, .cloud .grid,.featured-head .grid,.featured-sub-head .grid, .featured-main .grid,.docs-main .grid{
+    .grid,.showcase .grid,.showcase1 .grid,.showcase2 .grid,.stats .grid, .cli .grid, .cloud .grid,.featured-head .grid,.featured-sub-head .grid, .featured-main .grid,.docs-main .grid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
 
     }
     
 
-    .showcase,.showcase1,showcase2{
+    .showcase,.showcase1,.showcase2{
         height: auto;
     }
+
+
     .showcase-text,.showcase1-text,.showcase2-text{
         text-align: center;
         margin-top: 40px;
         animation:slidINFormTop 1s ease-in ;
     }
+
+   
+
     .showcase-form,.showcase1-form,.showcase2-form{
         justify-self: center;
         margin: auto;
